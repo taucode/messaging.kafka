@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>TauCode.Messaging.Kafka</id>
+    <version>2.0.0</version>
+    <authors>TauCode</authors>
+    <owners>TauCode</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <projectUrl>https://github.com/taucode/messaging.kafka</projectUrl>
+    <repository type="git" url="https://github.com/taucode/messaging.kafka"/>
+    <readme>README.md</readme>
+    <description>
+      Kafka-based implementation of TauCode messaging
+    </description>
+    <releaseNotes>
+      Release 2.0.0.
+    </releaseNotes>
+    <tags>taucode messaging kafka message broker</tags>
+    <dependencies>
+      <group targetFramework="net8.0">
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\README.md" target="" />
+    <file src="..\LICENSE*" target="" />
+    <file src="..\src\TauCode.Messaging.Kafka\bin\Release\net8.0\TauCode.Messaging.Kafka.dll" target="lib\net8.0" />
+  </files>
+</package>
